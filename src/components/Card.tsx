@@ -23,8 +23,8 @@ export const Card: React.FC<CardProps> = (props) => {
       <LeftCornerCircle />
       <PokeContainer>
         <PokeballSVG />
-        <CardContent>{props.children}</CardContent>
       </PokeContainer>
+      <CardContent>{props.children}</CardContent>
     </CardContainer>
   );
 };

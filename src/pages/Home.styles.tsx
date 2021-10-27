@@ -18,11 +18,15 @@ export const Content = styled.div`
 export const SearchSection = styled.section`
   background-color: white;
   border-radius: 12px;
+  display: grid;
+  grid-gap: 40px;
+  padding: 32px;
 `;
 
 export const Title = styled.h1`
   font-size: 30px;
   padding-top: 200px;
+  color: #595959;
 `;
 
 export const Grid = styled.div`
