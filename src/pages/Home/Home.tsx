@@ -1,6 +1,6 @@
 import { SearchInput } from "../../components/SearchInput";
 import { HOME_MENU } from "../../constants";
-import { Content, Container, SearchSection, Title, Grid } from "../Home.styles";
+import { Content, Container, SearchSection, Title, Grid } from "./Home.styles";
 import { Card } from "../../components/Card";
 
 export const Home = () => {
